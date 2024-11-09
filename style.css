@@ -1,0 +1,20 @@
+#title {
+  text-align: center;
+}
+
+section:not(:nth-child(2n)) {
+  background-color: green;
+  color: white;
+}
+
+.sub-title {
+  font-family: cursive;
+}
+
+section li:first-child {
+  color: cyan;
+}
+
+section:nth-child(2n) > ol li:last-child {
+  text-decoration-line: line-through;
+}
